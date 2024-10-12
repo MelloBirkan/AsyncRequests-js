@@ -41,7 +41,7 @@ Aqui, estamos atualizando o src (a URL da imagem ou vídeo) e ajustando a visibi
 O método `document.getElementById()` é usado para selecionar um elemento HTML específico com base no seu id. Ele permite que o JavaScript acesse e modifique esse elemento diretamente, atualizando o título e a explicação com os dados fornecidos pela API.
 
 
-Caso ocorra algum erro durante a requisição, usamos o método .catch() para capturar e exibir o erro no console.
+Caso ocorra algum erro durante a requisição, usamos o método `.catch()` para capturar e exibir o erro no console.
 
 ```javascript
 .catch(error => console.log('Erro:', error));
