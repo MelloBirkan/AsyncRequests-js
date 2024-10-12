@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>linkRapido</title>
+  <link rel="stylesheet" type="text/css" href="../output.css" />
+</head>
+
+<body>
+<header class="bg-blue-600 pt-10">
+  <img src="https://cdn.midjourney.com/fd15acc2-3513-4657-8ee4-1b834830560d/0_0.png" class="size-48 object-contain mx-auto rounded-3xl shadow-2xl" />
+</header>
+
+<main id="main" class="bg-blue-600 h-[900px] text-center">
+  <div class="w-[400px] mx-auto text-center">
+    <h1 class="font-light text-[32px] tracking-[0.6px] text-center text-gray-900 pt-10">Digite uma URL</h1>
+
+    <form id="form" autocomplete="off">
+      <input type="text" id="input" value="" class="w-[219px] h-[37px] rounded-[3.2px] border-[0.8px] border-gray-900 bg-transparent block mx-auto font-sans text-sm tracking-[0.2px] text-center text-white" >
+      <button id="shorten" class="w-[91px] h-[37px] rounded-[3.2px] border-[0.8px] border-gray-900 bg-transparent mt-12 font-sans text-sm tracking-[0.2px] text-center text-white mr-[-3px] hover:bg-gray-900 hover:border-gray-700 hover:text-blue-600 hover:cursor-pointer active:bg-white active:border-gray-700 active:text-gray-900 active:cursor-pointer" >Diminuir</button>
+    </form>
+
+    <div id="responseField" class="min-w-[191px] min-h-[120px] border-2 border-white mx-auto mt-[25px] font-sans text-base tracking-[0.2px] text-center text-white overflow-auto" >
+    </div>
+  </div>
+</main>
+
+<script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
+<script src="index.js"></script>
+<script src="helperFunctions.js"></script>
+</body>
+</html>

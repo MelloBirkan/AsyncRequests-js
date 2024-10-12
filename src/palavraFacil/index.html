@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Palavra Facil</title>
+  <link rel="stylesheet" type="text/css" href="../output.css"/>
+</head>
+
+<body>
+<header class="text-center bg-red-400 p-10">
+  <img src="https://cdn.midjourney.com/15894300-2a8a-4c18-8c67-d2823297864a/0_0.png" class="size-48 mt-10 object-contain mx-auto rounded-3xl shadow-2xl" alt="Word Smith logo" />
+</header>
+<main id="main" class="bg-red-400 h-[900px] text-center">
+  <div class="container w-[400px] mx-auto text-center">
+    <h1 class="font-sans text-3xl font-extralight tracking-wider text-center pt-10 m-0">Digite uma Palavra</h1>
+    <form id="form" autocomplete="off" class="mt-2.5">
+      <input type="text" id="input" value="" class="w-[219px] h-[37px] rounded border border-slate-800 bg-transparent block mx-auto mt-2.5 font-['Source_Sans_Pro'] text-sm tracking-wide text-center text-white" />
+      <button id="submit" class="w-[125px] h-[30px] rounded-sm bg-slate-800 mt-[30px] font-sans text-base font-medium tracking-wide text-center text-red-400 hover:text-white active:bg-white active:border-white active:text-red-400 cursor-pointer">Enviar</button>
+    </form>
+    <div id="responseField" class="min-w-[191px] min-h-[120px] bg-slate-800 mx-auto mt-6 font-normal text-sm tracking-wide text-center text-white break-words overflow-auto p-5"></div>
+  </div>
+</main>
+<script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
+<script src="index.js"></script>
+<script src="helperFunctions.js"></script>
+</body>
+</html>
