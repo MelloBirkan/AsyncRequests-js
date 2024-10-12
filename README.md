@@ -53,7 +53,7 @@ Usamos a API da NASA para obter a "Astronomy Picture of the Day" (Imagem Astron√
 
 ```javascript
 const apiKey = 'SUA_CHAVE_AQUI'; // Sua chave de API recebida por email
-const url = `https://api.nasa.gov/planetary/apod?api_key=${apiKey
+const url = `https://api.nasa.gov/planetary/apod?api_key=${apiKey}`;
 
 ````
 
