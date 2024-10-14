@@ -350,7 +350,7 @@ Caso ocorra algum erro durante a requisição, usamos o método `.catch()` para 
 .catch(error => console.log('Erro:', error));
 ````
 
-[Imagem1]
+
 
 Usamos a API da NASA para obter a "Astronomy Picture of the Day" (Imagem Astronômica do Dia). Para isso, usamos uma URL que inclui nossa chave de API. Essa chave serve para autenticar nossa aplicação ao acessar os dados da NASA.
 
@@ -368,5 +368,5 @@ Para usar a API da NASA e acessar os dados, você precisa de uma chave de acesso
 3. Preencha o formulário de inscrição com as informações necessárias, como nome e email.
 4. Depois de se inscrever, você receberá um email com a sua chave de API.
 
-[Imagem2]
+
 
